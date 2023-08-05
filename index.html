@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modal-button-lists">
+        <button class="btn-modal open-modal">Modal 1</button>
+        <button class="btn-modal open-modal">Modal 2</button>
+        <button class="btn-modal open-modal">Modal 3</button>
+      </div>
+
+      <div class="modal-content hidden">
+        <i class="ri-close-circle-line close-modal"></i>
+        <h3>Modal title</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          maxime magnam saepe consequuntur cupiditate nobis adipisci error
+          corporis earum officia, odio explicabo nulla similique. Consectetur.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal-overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
